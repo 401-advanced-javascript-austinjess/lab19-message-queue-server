@@ -13,3 +13,5 @@ dbQ.monitorEvent('read');
 dbQ.monitorEvent('update');
 dbQ.monitorEvent('delete');
 dbQ.monitorEvent('error');
+
+module.exports = { dbQ, fileQ };
